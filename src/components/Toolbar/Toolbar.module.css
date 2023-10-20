@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  list-style-type: none;
+}
+
+.selected {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: #808080;
+  color: #ffff;
+  cursor: pointer;
+
+}
+
+.inactive {
+  text-transform: none;
+  border: 1px solid #808080;
+  padding: 5px;
+  margin-right: 5px;
+
+}
+
+.inactive:hover {
+  cursor: pointer;
+}   
